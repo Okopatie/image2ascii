@@ -427,7 +427,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "img2ascii"
+name = "image2ascii"
 version = "0.1.0"
 dependencies = [
  "clap",
