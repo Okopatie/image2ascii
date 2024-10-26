@@ -4,6 +4,7 @@ use clap::Parser;
 use image::{imageops::FilterType, open, DynamicImage};
 
 #[derive(Parser, Debug)]
+#[command(version)]
 struct Cli {
     path: path::PathBuf,
 
